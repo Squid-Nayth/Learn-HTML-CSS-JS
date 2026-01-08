@@ -117,11 +117,6 @@ button:hover {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.task-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-}
-
 .task-card.completed {
     opacity: 0.6;
     background-color: #fbfbfd;
@@ -184,4 +179,21 @@ footer {
     color: var(--text-secondary);
     font-size: 14px;
     border-top: 1px solid var(--border-color);
+}
+
+.task-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 4px;
+}
+
+.task-header h3 {
+    margin: 0;
+}
+
+.task-header input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
