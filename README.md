@@ -5,7 +5,7 @@
 
 Le fichier `index.html` définit la structurede la page :
 
-- **Le Header ** : Affiche le logo et le titre principal.
+- **Le Header** : Affiche le logo et le titre principal.
 - **Le Formulaire** : Permet à l'utilisateur de saisir les informations d'une tâche (Titre, Sous-titre, Message, Email, Date).
 - **La Liste de Tâches** : Une section vide au départ (`<div id="taskList">`) que le JavaScript viendra remplir dynamiquement avec un innerHTML.
 - **Le Footer** : Le pied de page avec les informations de copyright.
