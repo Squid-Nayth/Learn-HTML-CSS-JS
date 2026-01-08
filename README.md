@@ -10,7 +10,7 @@ Le fichier `index.html` définit la structurede la page :
 - **La Liste de Tâches** : Une section vide au départ (`<div id="taskList">`) que le JavaScript viendra remplir dynamiquement avec un innerHTML.
 - **Le Footer** : Le pied de page avec les informations de copyright.
 
----
+
 
 ## 2. CSS 
 
@@ -23,7 +23,7 @@ Le fichier `index.html` définit la structurede la page :
     - Transitions fluides lors du survol des boutons.
     - Style "barré" et opacité réduite pour les tâches terminées.
 
----
+
 
 ## 3. JavaScript 
 Le fichier `index.js` gère toute l'interactivité :
